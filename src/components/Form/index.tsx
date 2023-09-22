@@ -38,7 +38,7 @@ function Form() {
     ) : (
       <div className='form'>
         <h3 className='result-txt'>Obrigado {name} por avaliar meu projeto, esse é apenas o primeiro de muitos, se você clicar no botão abaixo você vai ser direcionado ao github com o meu código</h3>
-        <a className='btn-code' href="https://www.youtube.com.br" target='_blanks'>
+        <a className='btn-code' href="https://github.com/gui-oliveira-dev/meu-primeiro-react-project" target='_blanks'>
           <button>Ver código</button>
         </a>
       </div>
