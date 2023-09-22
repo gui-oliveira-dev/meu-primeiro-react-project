@@ -1,0 +1,22 @@
+header {
+  background-color: rgb(115, 67, 247);
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  align-items: center;
+  color: white;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+  font-weight:600;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+}

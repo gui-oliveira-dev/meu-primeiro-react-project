@@ -1,0 +1,10 @@
+ * {
+  margin: 0px;
+ }
+ 
+ body {
+  background-image: url('./assets/background.png');
+  background-image: no-repeat center;
+  background-size: cover;
+  margin: 0px;
+ }
