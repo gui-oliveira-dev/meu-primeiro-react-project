@@ -30,7 +30,7 @@ function Form() {
         <option value="1">1 - Não gostuei</option>
         <option value="2">2 - Dá pra melhorar</option>
         <option value="3">3 - Bom</option>
-        <option value="4">4 - Muito Bom</option>
+        <option value="4">4 - Está de parabuains</option>
         <option selected value="5">5 - Asmei</option>
       </select>
       <button className='btn-submit' onClick={(event) => handelClick(event)} type="submit">Enviar Dados e ver código</button>

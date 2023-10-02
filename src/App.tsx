@@ -1,16 +1,15 @@
 import './App.css'
-import Header from "./components/Header"
-import Cards from './components/Cards'
-import AboutSection from './components/AboutSection'
-import Form from './components/Form'
+import Home from './pages/Home'
+import NotFound from './pages/NotFound'
+import { Route, Routes } from 'react-router-dom'
 
 function App() {
   return (
     <>
-      <Header/>
-      <Cards />
-      <AboutSection />
-      <Form />
+    <Routes>
+      <Route path='/' element={ <Home /> } />
+      <Route path='/*' element={ <NotFound /> } />
+    </Routes>
     </>
   )
 }
